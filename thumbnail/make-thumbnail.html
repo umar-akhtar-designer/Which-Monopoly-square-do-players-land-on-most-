@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Thumbnail</title>
+<style>
+  @page { size: 1280px 720px; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    background: #14532d;
+    color: #f6f1e4;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+  }
+  .frame { position: absolute; inset: 40px; border: 2px solid rgba(246,241,228,0.35); }
+  .left { position: absolute; left: 72px; top: 84px; width: 660px; }
+  .kicker {
+    font-size: 20px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: #cfe3c8; margin: 0 0 20px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 86px; line-height: 1.02; font-weight: 700;
+    margin: 0 0 24px; letter-spacing: -0.01em;
+  }
+  h1 .red { color: #ff8a7a; }
+  .sub { font-size: 26px; color: #dbe8d4; margin: 0; }
+  .sub b { color: #fff; }
+
+  .panel {
+    position: absolute; right: 64px; top: 108px; width: 452px;
+    background: #fffdf7; color: #1c1c1c;
+    padding: 26px 28px 22px; border: 2px solid #0d3b20;
+    box-shadow: 8px 8px 0 rgba(0,0,0,0.18);
+  }
+  .panel h2 {
+    font-size: 17px; letter-spacing: 0.16em; text-transform: uppercase;
+    margin: 0 0 16px; color: #14532d;
+  }
+  .row { margin: 0 0 15px; }
+  .row .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .name { font-size: 21px; font-weight: 700; }
+  .val { font-family: "SF Mono", Menlo, monospace; font-size: 21px; }
+  .bar { height: 12px; background: #e6e0d2; margin-top: 5px; }
+  .bar span { display: block; height: 12px; background: #14532d; }
+  .row.jail .name { color: #9f1d1d; }
+  .row.jail .bar span { background: #9f1d1d; }
+  .tag { font-size: 14px; color: #6a6a5f; margin-top: 3px; }
+
+  .foot {
+    position: absolute; left: 72px; bottom: 54px;
+    font-size: 18px; color: #cfe3c8;
+  }
+</style>
+</head>
+<body>
+  <div class="frame"></div>
+
+  <div class="left">
+    <p class="kicker">Monopoly, simulated</p>
+    <h1>The square<br>everyone<br>lands <span class="red">on</span></h1>
+    <p class="sub"><b>40 squares.</b> 200,000 turns. One clear winner.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Top 5 squares</h2>
+
+    <div class="row jail">
+      <div class="top"><span class="name">1. Jail</span><span class="val">9.16%</span></div>
+      <div class="bar"><span style="width:100%"></span></div>
+      <div class="tag">not a property</div>
+    </div>
+
+    <div class="row">
+      <div class="top"><span class="name">2. Illinois Ave</span><span class="val">3.08%</span></div>
+      <div class="bar"><span style="width:33.6%"></span></div>
+      <div class="tag">best property</div>
+    </div>
+
+    <div class="row">
+      <div class="top"><span class="name">3. Go</span><span class="val">3.01%</span></div>
+      <div class="bar"><span style="width:32.9%"></span></div>
+      <div class="tag">not a property</div>
+    </div>
+
+    <div class="row">
+      <div class="top"><span class="name">4. New York Ave</span><span class="val">2.96%</span></div>
+      <div class="bar"><span style="width:32.3%"></span></div>
+      <div class="tag">property</div>
+    </div>
+
+    <div class="row" style="margin-bottom:0">
+      <div class="top"><span class="name">5. B. &amp; O. RR</span><span class="val">2.96%</span></div>
+      <div class="bar"><span style="width:32.3%"></span></div>
+      <div class="tag">property</div>
+    </div>
+  </div>
+
+  <div class="foot">Probability for AI · Fall 2026 · simulated from Hasbro's rules</div>
+</body>
+</html>

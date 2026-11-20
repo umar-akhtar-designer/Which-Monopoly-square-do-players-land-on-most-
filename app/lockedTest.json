@@ -1,0 +1,5 @@
+{
+  "seed": 20261221,
+  "turns": 200000,
+  "note": "The locked test set. I wrote this seed down before I looked at the result. The app only simulates these turns when the button is pressed, once."
+}

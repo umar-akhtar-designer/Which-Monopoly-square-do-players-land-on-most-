@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>Final project thumbnail template, 1280 by 720</title>
+  <!-- Replace the background, the picture and the title. Keep the title short
+       (about 5 words) and inside the dashed safe area; the bottom right corner
+       is covered by the video length badge in the showcase. Export as PNG or
+       JPG at 1280 x 720 or larger. -->
+  <rect width="1280" height="720" fill="#1f2a44"/>
+  <rect x="64" y="64" width="1152" height="592" fill="none" stroke="#75cefa" stroke-width="3" stroke-dasharray="14 10"/>
+  <rect x="1040" y="610" width="176" height="46" rx="8" fill="#000" opacity="0.55"/>
+  <text x="1128" y="641" fill="#fff" font-family="system-ui, sans-serif" font-size="22" text-anchor="middle">1:00 badge</text>
+  <circle cx="960" cy="330" r="170" fill="#ff7ffc" opacity="0.85"/>
+  <text x="960" y="340" fill="#1f2a44" font-family="system-ui, sans-serif" font-size="30" text-anchor="middle">your picture</text>
+  <text x="104" y="300" fill="#fff" font-family="system-ui, sans-serif" font-size="84" font-weight="800">Your short</text>
+  <text x="104" y="400" fill="#fff" font-family="system-ui, sans-serif" font-size="84" font-weight="800">title here</text>
+  <text x="104" y="470" fill="#75cefa" font-family="system-ui, sans-serif" font-size="34">One short line about your project</text>
+</svg>

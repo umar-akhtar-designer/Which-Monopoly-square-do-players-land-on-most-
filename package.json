@@ -1,0 +1,22 @@
+{
+  "name": "pai-final-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "node tools/check.mjs"
+  },
+  "dependencies": {
+    "katex": "0.15.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-icons": "5.5.0",
+    "recharts": "3.8.1",
+    "styled-components": "6.6.0",
+    "sweetalert2": "11.12.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.1.2",
+    "vite": "5.4.21"
+  }
+}

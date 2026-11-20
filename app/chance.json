@@ -1,0 +1,18 @@
+[
+  {"text": "Move to Go", "move": "go"},
+  {"text": "Move to Illinois Avenue", "move": "square", "square": 24},
+  {"text": "Move to St. Charles Place", "move": "square", "square": 11},
+  {"text": "Move to the nearest utility", "move": "nearestUtil"},
+  {"text": "Move to the nearest railroad", "move": "nearestRail"},
+  {"text": "Money only, no move", "move": null},
+  {"text": "Get Out of Jail Free, no move", "move": null},
+  {"text": "Go back 3 spaces", "move": "back3"},
+  {"text": "Move to Jail", "move": "jail"},
+  {"text": "Repairs, no move", "move": null},
+  {"text": "Fine, no move", "move": null},
+  {"text": "Move to Reading Railroad", "move": "square", "square": 5},
+  {"text": "Move to Boardwalk", "move": "square", "square": 39},
+  {"text": "Money only, no move", "move": null},
+  {"text": "Money only, no move", "move": null},
+  {"text": "Move to the nearest railroad", "move": "nearestRail"}
+]
